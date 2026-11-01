@@ -1,28 +1,45 @@
-[
-  {
-    "index": 0,
-    "timestamp": "2026-11-01T08:00:00Z",
-    "type": "Genesis",
-    "hash": "0x0000a7f39c2d8e1a5b6c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
-    "prev_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "location": "Agra",
-    "validator": "qtrust_997a22b8",
-    "wallet_id": 128,
-    "quantum_safe": "Kyber1024 + Dilithium2 / Dilithium3 + Kyber768",
-    "message": "QTrustChain Genesis Block - Agra Node 1"
-  },
-  {
-    "index": 1,
-    "timestamp": "2026-11-01T08:53:00Z",
-    "type": "Transaction",
-    "hash": "0x0000b8c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2",
-    "prev_hash": "0x0000a7f39c2d8e1a5b6c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
-    "from": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
-    "to": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
-    "amount": "10 QTC",
-    "memo": "Agra Genesis Block 2",
-    "wallet_id": 128,
-    "location": "Agra",
-    "status": "Confirmed"
-  }
-]
+{
+  "chain": "QTrustChain v1 - Quantum Safe",
+  "symbol": "PQC",
+  "creator": "Samdeep - Agra",
+  "totalSupply": 21000000,
+  "genesisAddress": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
+  "consensus": "Quantum Proof-of-Work + Dilithium2",
+  "quantum": "SHA3-512 + Kyber-1024 + Dilithium2 - Grover Resistant",
+  "nodes": [
+    "https://samdeep11.github.io/qtrust-wallet/blocks.json",
+    "https://samdeep11.github.io/qtrust-seed-2/blocks.json"
+  ],
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2026-11-01T00:00:00Z",
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
+      "amount": 21000000,
+      "prevHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": 0,
+      "hash": "0x0000a7f39c2d8e1b5a6f0c9d8e7b6a5f4c3d2e1b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3",
+      "qProof": "QTrust-Genesis: Lattice-Kyber1024 + Dilithium2 - Quantum Safe",
+      "type": "GENESIS",
+      "message": "QTrustChain Genesis Block - Created from Agra - Wallet ID 128 Preserved",
+      "minedBy": "Agra Main Node - Samdeep11",
+      "difficulty": 4
+    },
+    {
+      "index": 1,
+      "timestamp": "2026-11-01T09:16:00Z",
+      "from": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
+      "to": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
+      "amount": 10,
+      "prevHash": "0x0000a7f39c2d8e1b5a6f0c9d8e7b6a5f4c3d2e1b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3",
+      "nonce": 1,
+      "hash": "0x0000b8c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9",
+      "qProof": "QTrust-Block2: Lattice-Kyber768 + Dilithium3 - Agra - Wallet 128",
+      "type": "TRANSACTION",
+      "message": "Agra Genesis Block 2 - 10 QTC Self Transfer - Wallet ID 128 Old Preserved",
+      "minedBy": "Agra Node 2 - qtrust_997a22b8",
+      "difficulty": 4
+    }
+  ]
+}
