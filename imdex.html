@@ -1,0 +1,20 @@
+tu<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>QTrust Seed 2</title>
+</head>
+<body style="background:black;color:#00ff88;text-align:center;padding:40px;font-family:monospace">
+<h1>QTrustChain - Seed Node 2 - ONLINE ✅</h1>
+<p>Location: Agra</p>
+<p>Quantum Safe: Kyber1024 + Dilithium2</p>
+<h2><a href="blocks.json" style="color:#00ff88">📦 blocks.json</a></h2>
+<h2><a href="https://samdeep11.github.io/qtrust-wallet/" style="color:#00ff88">💰 Main Wallet</a></h2>
+<div id="info">Loading chain...</div>
+<script>
+fetch('./blocks.json').then(r=>r.json()).then(d=>{
+document.getElementById('info').innerHTML=`Blocks: ${d.blocks.length}<br>Genesis: ${d.blocks[0].hash.slice(0,16)}...`
+}).catch(e=>{document.getElementById('info').innerHTML='blocks.json not found - add it!'})
+</script>
+</body>
+</html>
