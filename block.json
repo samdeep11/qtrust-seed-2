@@ -1,0 +1,30 @@
+{
+  "chain": "QTrustChain v1 - Quantum Safe",
+  "symbol": "PQC",
+  "creator": "Samdeep - Agra",
+  "totalSupply": 21000000,
+  "genesisAddress": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
+  "consensus": "Quantum Proof-of-Work + Dilithium2",
+  "quantum": "SHA3-512 + Kyber-1024 + Dilithium2 - Grover Safe",
+  "nodes": [
+    "https://samdeep11.github.io/qtrust-wallet/blocks.json",
+    "https://samdeep11.github.io/qtrust-seed-2/blocks.json"
+  ],
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2026-11-01T00:00:00Z",
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xe9Ca207245DC6BC0E711ab59690C46e10F67B787",
+      "amount": 21000000,
+      "prevHash": "0x0000000000000000000000000000000000000000",
+      "nonce": 0,
+      "hash": "0x0000a7f39c2d8e1b5a6f0c9d8e7b6a5f4c3d2e1b0a9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1",
+      "qProof": "QTrust-Genesis: Lattice-Kyber1024 + Dilithium2 + SHA3-512 - Quantum Immune - Grover 256-bit",
+      "type": "GENESIS",
+      "message": "QTrustChain Genesis Block - Created from Agra - 21M PQC - Quantum Safe Forever - Post-Quantum Era Started",
+      "minedBy": "Agra Main Node - Samdeep11",
+      "difficulty": 4
+    }
+  ]
+}
